@@ -1,0 +1,231 @@
+.authPage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f0f0f 0%, #1a1a1a 100%);
+  padding: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+.authCard {
+  padding: 40px;
+  border-radius: 12px;
+  max-width: 450px;
+  width: 100%;
+  background: linear-gradient(135deg, rgba(30, 30, 30, 0.9) 0%, rgba(26, 26, 26, 0.9) 100%);
+  border: 1px solid #2a2a2a;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+}
+
+.authHeader {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.appTitle {
+  margin: 0;
+  font-weight: 700;
+  background: linear-gradient(135deg, #ff8c00, #ffa500);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 2.5rem !important;
+  margin-bottom: 12px;
+}
+
+.appSubtitle {
+  color: #999;
+  font-size: 1rem !important;
+  margin: 0;
+}
+
+.signInContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f0f0f 0%, #1a1a1a 100%);
+  padding: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+.signInPaper {
+  padding: 40px !important;
+  border-radius: 12px;
+  max-width: 450px;
+  width: 100%;
+  text-align: center;
+  background: linear-gradient(135deg, rgba(30, 30, 30, 0.9) 0%, rgba(26, 26, 26, 0.9) 100%) !important;
+  border: 1px solid #2a2a2a !important;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4) !important;
+}
+
+.title {
+  font-weight: 700 !important;
+  background: linear-gradient(135deg, #ff8c00, #ffa500);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 8px !important;
+}
+
+.subtitle {
+  color: #999 !important;
+  margin-bottom: 32px !important;
+}
+
+.googleButton {
+  margin-top: 24px !important;
+  background: linear-gradient(135deg, #ff8c00, #ffa500) !important;
+  transition: all 0.3s ease !important;
+  font-weight: 500 !important;
+  text-transform: none !important;
+  color: white !important;
+}
+
+.googleButton:hover {
+  box-shadow: 0 4px 20px rgba(255, 140, 0, 0.5) !important;
+  transform: translateY(-2px);
+}
+
+.loadingContainer {
+  display: flex;
+  align-items: center;
+  /* 0f0f0f 0%, #1a1a1a */
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f0f0f 0%, #1a1a1a 100%);
+}
+
+.errorAlert {
+  margin-bottom: 24px;
+  border-left: 4px solid #d32f2f;
+  border-radius: 4px;
+  background-color: #ffebee;
+  color: #c62828;
+  padding: 12px 16px;
+  font-size: 0.95rem;
+}
+
+.authForm {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 30px;
+}
+
+.formInput {
+  margin-bottom: 0 !important;
+}
+
+.emailInput {
+  margin-bottom: 0 !important;
+}
+
+.emailNote {
+  display: block;
+  margin-top: 8px !important;
+  color: #999 !important;
+  text-align: center;
+  font-style: italic;
+}
+
+.submitButton {
+  font-weight: 600;
+  padding: 12px;
+  transition: all 0.3s ease !important;
+}
+
+.separator {
+  position: relative;
+  margin: 20px 0;
+  text-align: center;
+  color: #9e9e9e;
+  font-size: 0.9rem;
+}
+
+.separator::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background-color: #e0e0e0;
+  z-index: 0;
+}
+
+.separator span {
+  position: relative;
+  background: white;
+  padding: 0 12px;
+  z-index: 1;
+}
+
+.authFooter {
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 20px 0;
+  border-top: 1px solid #f0f0f0;
+}
+
+.authFooter p {
+  margin: 0;
+  color: #5f6368 !important;
+}
+
+.signupLink {
+  color: #667eea !important;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none !important;
+  transition: color 0.3s ease;
+}
+
+.signupLink:hover {
+  color: #764ba2 !important;
+}
+
+.securityInfo {
+  text-align: center;
+  padding: 16px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  margin-top: 16px;
+}
+
+.securityInfo p {
+  margin: 0;
+  color: #757575 !important;
+  font-size: 0.85rem !important;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .authCard {
+    padding: 24px;
+  }
+
+  .appTitle {
+    font-size: 2rem !important;
+  }
+
+  .authHeader {
+    margin-bottom: 25px;
+  }
+
+  .authForm {
+    gap: 12px;
+  }
+}
+
+/* Loading state animations */
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
