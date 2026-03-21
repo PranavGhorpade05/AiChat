@@ -229,14 +229,6 @@ AI Chat App/
 
 ---
 
-## 🔐 Security Notes
-
-* Do not commit `.env` files
-* Use strong secrets in production
-* Enable HTTPS in production
-
----
-
 ## 📚 Resources
 
 * FastAPI: https://fastapi.tiangolo.com/
@@ -246,11 +238,6 @@ AI Chat App/
 
 ---
 
-## 📄 License
-
-This project is for educational purposes.
-
----
 
 ## 🎉 Done!
 
